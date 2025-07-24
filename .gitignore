@@ -1,2 +1,14 @@
+
 node_modules
 .env
+index.html     
+package.json    
+postcss.config.js  
+readme.md  
+tailwind.config.js
+eslint.config.js  
+node_modules/  
+package-lock.json  
+public/    
+src/    
+vite.config.js    
