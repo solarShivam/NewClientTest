@@ -13,6 +13,7 @@ import Contact from "../Home/Contact";
 import Practice from '../../Pages/Home/Practice'
 
 
+
 import {useNavigate, useLocation } from "react-router-dom";
 import TestDetail from "./TestDetails";
 
@@ -100,7 +101,7 @@ export default function HomePage({section}) {
                   </span>
                 </h1>
                 <p className="text-base sm:text-lg text-gray-700 dark:text-gray-300 mb-10 leading-relaxed max-w-2xl">
-                  Master professional assessments with AI-powered practice tests. Join 500,0+ students who've accelerated their careers through our comprehensive testing platform.
+                  Master professional assessments with AI-powered practice tests. Join 5000+ students who've accelerated their careers through our comprehensive testing platform.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 mb-12">
                   <button className="inline-flex items-center justify-center rounded-full font-bold transition-colors bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-black px-8 sm:px-10 py-3 sm:py-4 text-base sm:text-lg shadow-2xl hover:shadow-yellow-500/25">
@@ -194,12 +195,11 @@ export default function HomePage({section}) {
         <HowItWorks />
         <Certificates />
         <About />
-        <Contact/>
+        {/* <Contact/> */}
         {/* <TestDetail /> */}
 
         < SuccessStories/>
-        
-     
+       
      </>
     )}
      

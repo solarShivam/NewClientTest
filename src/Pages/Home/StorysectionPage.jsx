@@ -270,7 +270,7 @@ const SuccessStories = () => {
       </section>
 
       {/* Section 4: CTA */}
-      <section className="px-6 py-20 bg-gradient-to-r from-yellow-500 to-yellow-600">
+      <section className="px-6 py-20 bg-gradient-to-r from-yellow-400 to-yellow-500">
         <div className="max-w-4xl mx-auto text-center text-black">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Ready to Write Your Success Story?
@@ -279,10 +279,10 @@ const SuccessStories = () => {
             Join thousands of students who transformed their careers with TestPortal
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-black text-yellow-500 hover:bg-gray-900 text-lg px-12 py-6 transition-colors duration-300">
+            <button className="bg-black text-white hover:bg-gray-900 text-lg  py-2 px-12 rounded-md transition-colors duration-300">
               Start Your Journey
             </button>
-            <button className="border-black text-black hover:bg-black hover:text-yellow-500 text-lg px-12 py-6 transition-colors duration-300">
+            <button className="border-black bg-black text-white rounded-md text-lg px-12 py-2 transition-colors duration-300">
               View All Tests
             </button>
           </div>

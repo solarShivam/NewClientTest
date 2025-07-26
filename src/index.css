@@ -141,6 +141,54 @@
 
 
 
+/* for border animation  */
+/* Glow animation with conic gradient for card border */
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes spin {
+  from {
+    --angle: 0deg;
+  }
+  to {
+    --angle: 360deg;
+  }
+}
+
+.card-glow::after,
+.card-glow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  border-radius: 1rem; /* match rounded-2xl */
+  padding: 3px;
+  background-image: conic-gradient(
+    from var(--angle),
+    #ff4545,
+    #00ff99,
+    #006aff,
+    #ff0095,
+    #ff4545
+  );
+  animation: spin 4s linear infinite;
+  z-index: 0;
+}
+
+.card-glow::before {
+  filter: blur(1rem);
+  opacity: 0.5;
+}
+
+
+
+
 
 
 
