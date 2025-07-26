@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     extend: {
+		
       keyframes: {
 				'fade-in': {
 					'0%': {
@@ -44,9 +45,11 @@ export default {
 				'scale-in': 'scale-in 0.5s ease-out',
 				'float': 'float 3s ease-in-out infinite',
 				
-			}
+			},
+			
 		
     },
+	
   },
   plugins: [
     
